@@ -1,0 +1,61 @@
+#heading{
+    text-align: center;
+}
+#catogary{
+    display: flex;
+    justify-content: space-evenly;
+}
+#personal{
+    width: 250px;
+    height: 400px;
+    background-color: rgb(88, 188, 221);
+    color: white;
+    text-align: center
+}
+#wedding{
+    width: 250px;
+    height: 400px;
+    background-color: rgb(88, 188, 221);
+    color: white;
+    text-align: center
+}
+#engagement{
+    width: 250px;
+    height: 400px;
+    background-color: rgb(88, 188, 221);
+    color: white;
+    text-align: center
+}
+#birthday{
+    width: 250px;
+    height: 400px;
+    background-color: rgb(88, 188, 221);
+    color: white;
+    text-align: center
+}
+
+#personal1{
+  width: 200px;
+  height: 200px;
+}
+#wedding1{
+  width: 200px;
+  height: 200px;
+}
+#engagement1{
+  width: 200px;
+  height: 200px;
+}
+#birthday1{
+  width: 200px;
+  height: 200px;
+}
+
+@media(max-width:900px){
+  #catogary{
+    display: block;
+    width: auto;
+    margin-left: 20%;
+  }
+}
+  

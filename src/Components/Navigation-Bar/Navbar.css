@@ -1,0 +1,146 @@
+
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.671);
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+}
+
+#navbar #hello h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#logo {
+  height: 45px;
+  width: 55px;
+  cursor: pointer;
+}
+
+#leftside {
+  display: flex;
+  align-items: center;
+  margin-left: 50px;
+}
+
+#leftside h1 {
+  font-size: 20px;
+}
+
+#rightside {
+  display: flex;
+  align-items: center;
+}
+
+#rightside ul {
+  margin-right: 50px;
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+}
+
+#rightside ul li {
+  position: relative; 
+}
+
+#rightside ul li a {
+  cursor: pointer;
+  color: black;
+  padding: 40px 10px;
+  text-decoration: none;
+}
+
+#rightside ul li a:hover {
+  color: green;
+  transition-duration: 0.5s;
+}
+
+
+#drop {
+  display: none; 
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #f9f9f9;
+  min-width: 120px;
+  z-index: 1;
+  opacity: 0;
+  visibility: hidden;
+}
+
+#drop li {
+  display: block;
+}
+
+#drop li a {
+  width: 120px;
+  padding: 0;
+  text-decoration: none;
+  color: black;
+  display: block;
+}
+#rightside ul #contact #drop li a{
+  padding: 10px;
+  text-align: center;
+}
+#drop li a:hover {
+  background-color: #ddd;
+}
+
+
+#contact:hover #drop {
+  display: block;
+  opacity: 1;
+  margin-top: 40px;
+  visibility: visible;
+}
+
+
+#rightside ul li:hover #drop {
+  display: block;
+  opacity: 1;
+  visibility: visible;
+}
+
+@media (max-width: 940px) {
+  
+  #rightside ul {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 84px;
+    left: 100%; 
+    background-color: rgba(255, 255, 255, 0.9);
+    width: 100%;
+    height: 250px;
+    z-index: 1000;
+    gap: 20px; 
+    text-align: center; 
+    justify-content: center; 
+  }
+
+  
+  #rightside ul.active {
+    left: 0;
+    display: block; 
+    padding: 20px;
+  }
+  #rightside ul li{
+    padding: 22px;
+    margin-right: 50px;
+  }
+
+  #button1 {
+    display: block;
+    font-size: 20px;
+    cursor: pointer;
+    margin-right: 50px;
+  }
+
+  #signbuttons {
+    display: block;
+  }
+}

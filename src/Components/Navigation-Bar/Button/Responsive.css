@@ -1,0 +1,23 @@
+#button {
+  display: flex;
+}
+
+#button1 {
+  border: none;
+  background-color: rgba(255, 255, 255, 0.007);
+  font-size: 20px;
+  cursor: pointer;
+  display: none;
+}
+  
+@media (max-width: 940px) {
+  #button1 {
+    display: block;
+    margin-right: 60px;
+  }
+  #rightside #signbuttons.active{
+    left: 0;
+    display: block; 
+    padding: 20px;  }
+}
+  

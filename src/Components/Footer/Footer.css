@@ -1,0 +1,31 @@
+#footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    background-color: black;
+    color: white;
+  }
+  #design{
+    display: flex;
+    align-items: center;
+  }
+  #copy-rights{
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+  }
+  #footer p{
+    margin: 20px;
+  }
+  #Ayan{
+    text-decoration: none;
+  }
+  #productions{
+    text-decoration: none;
+  }
+  
+  #span1{
+    display: flex;
+    align-items: center;
+  }

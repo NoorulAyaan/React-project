@@ -1,0 +1,28 @@
+#sixth{
+  text-align: center;
+  color: white;
+  width: 100%;
+  height: 200px;
+  background-color: lightskyblue;
+}
+
+#pause{
+  display: flex;
+  justify-content: center;
+}
+#play{
+  width: auto;
+  align-items: center;
+  display: flex;
+}
+@media (max-width:800px){
+  #sixth{
+    display: block;
+    height: 250px;
+  }
+  #pause{
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+  }
+}

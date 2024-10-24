@@ -1,0 +1,44 @@
+#hero-container {
+    background-image: url(../../Assets/Images/picture.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    position: relative;  
+  }
+  
+  #hero-container h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  #for-paragraph {
+    text-align: left;  
+    width: 80%; 
+    margin: 0 0 auto;
+  }
+  
+  #for-paragraph p {
+    font-size: 1.2rem;
+  }
+  
+  
+  #hero-container p {
+    font-size: 1.2rem;
+  }
+
+@media(max-width:700px){
+  #for-whole-text{
+    text-align: center;
+    display: block;
+  }
+  #for-paragraph p{
+    font-size: 15px;
+    text-align: center;
+  }
+}
